@@ -1,96 +1,87 @@
-
-.heading-1{
-    width: 100%;
-    margin-left: 0%;
-    margin-right: 0%;
-    padding: auto;
+body{
+    margin: 0;
+    padding: 0;
 }
-.icons {
+p{
+    font-family: 'Roboto', sans-serif;  
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-header{
+    font-weight: bold;
+    font-size: 20px;
+}
+.instructions{
+    font-size: 15px;
+    padding: 15px 0;
+    background-color: #506f28;
+    color: white;
+}
+
+.logo{
+    height: auto;
+    width: 15%;
+}
+.navbar-icons{
     display: flex;
-    justify-content: center;
-    align-items: center;
+}
+.navbar-icons > li{
+    list-style: none;
+    margin-left: 15px;
+}
+.section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.products-grid{
     justify-content: space-evenly;
 }
-.instruction {
-    background-color: green;
+.products-grid div{
+    height: 250px;
+    width: 250px;
+    padding: 0;
+    margin: 0;
+}
+.products-grid div{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.3);
+    display: grid;
+    place-items: center;
+}
+.overlay h1{
     color: white;
+    font-size: 35px;
+    font-weight: bold;
 }
-.image {
-    width: 100%;
-    height: 85%;
-    padding: 2px;  
-    margin-top: 5%; 
-    opacity: .6;
+.overlay:hover{
+    background: rgba(0, 0, 0, 0.5);
 }
-.image:hover {
-    opacity: .3;
-    background: lightgray;
+.products-grid .img1{
+    background-image: url('./images/gardening.jpg');
 }
-.p-font, .h-font {
-    font-family: Roboto;
+.products-grid .img2{
+    background-image: url('./images/Natural\ Gardening.jpg');
 }
-.p-font {
-    font-size: 25px;
+.products-grid .img3{
+    background-image: url('./images/Eco-friendly\ Products.jpg');
 }
-.h-font {
-    font-size: 25px;
+.products-grid .img4{
+    background-image: url('./images/Plants.jpg');
 }
-.title {
-    margin: 2.5%;
+.banner-section{
+    background-image: url('./images/Seer\ soap.jpg');
+    color: white;
+    background-size: cover;
+    background-position-y: top;
+    height: 75vh;
 }
-.image-1 {
+.banner-content{
     position: relative;
-    text-align: center;
-    color: white;    
-}
-.image-2 {
-    position: absolute;
-    top: 40%;
-    left: 30%;
-    font-weight: bold;
-}
-.image-3 {
-    position: absolute;
-    top: 35%;
-    left: 5%;
-    font-weight: bold;
-}
-.image-4 {
-    position: absolute;
-    top: 40%;
-    left: 10%;
-    font-weight: bold;
-}
-.image-5 {
-    position: absolute;
-    top: 40%;
-    left: 20%;
-    font-weight: bold;
-}
-.special-offer {
-    margin-top: 70px;
-    margin-bottom: 70px;
-    position: relative;
-    margin-left: 0%;
-    margin-right: 0%;
-    padding: 0%;
-}
-.Seer {
-    width: 100%;
-    height: 40%;
-    margin: 0px;
-    padding: 0px;
-}
-.text-1 {
-    position: absolute;
-    top: 15%;
-    left: 25%;
-    color: white;
-}
-.button-1 {
-    background-color: black;
-    color: white;
-}
-.button-1:hover {
-    background-color: orangered;
+    top: 50%;
+    transform: translateY(-50%);
 }
